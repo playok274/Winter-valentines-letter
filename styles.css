@@ -4,9 +4,14 @@ body, html {
 }
 
 div.wrapper {
-  font-family: 'Proxima Nova';
   width: 900px;
+  margin: 0 auto; /* Centers the div horizontally */
+  display: flex;
+  justify-content: center; /* Centers children inside if needed */
+  align-items: center; /* Centers content vertically */
+  min-height: 100vh; /* Ensures the wrapper covers the full height of the screen */
 }
+
 
 div.clearfix {
   float: none;
